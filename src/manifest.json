@@ -1,0 +1,23 @@
+{
+  "manifest_version": 1,
+  "id": "io.github.wernerhertzog.joplin-tag-network",
+  "app_min_version": "3.7.22",
+  "version": "0.2.2",
+  "name": "Tag Network",
+  "description": "Explore how your Joplin tags connect across notes.",
+  "author": "Werner Hertzog",
+  "keywords": [
+    "tags",
+    "network",
+    "graph"
+  ],
+  "categories": [
+    "tags",
+    "productivity"
+  ],
+  "platforms": [
+    "desktop"
+  ],
+  "homepage_url": "https://github.com/wernerhertzog/joplin-plugin-tag-network",
+  "repository_url": "https://github.com/wernerhertzog/joplin-plugin-tag-network"
+}

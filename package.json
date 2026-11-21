@@ -1,0 +1,20 @@
+{
+  "name": "joplin-plugin-tag-network",
+  "version": "0.2.2",
+  "description": "Explore connections between your Joplin tags",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dist": "npm run build",
+    "test": "node --test",
+    "prepare": "npm run dist",
+    "check:release": "npm run dist && node scripts/verify-release.js && npm pack --dry-run"
+  },
+  "engines": { "node": ">=18" },
+  "author": "Werner Hertzog",
+  "license": "MIT",
+  "homepage": "https://github.com/wernerhertzog/joplin-plugin-tag-network#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/wernerhertzog/joplin-plugin-tag-network.git" },
+  "bugs": { "url": "https://github.com/wernerhertzog/joplin-plugin-tag-network/issues" },
+  "keywords": ["joplin-plugin", "tags", "network", "graph"],
+  "files": ["publish"]
+}
